@@ -1,0 +1,83 @@
+ M1 - Improper Credential Usage 
+This category covers the risks associated with insecure handling of credentials, such as passwords and tokens, often owing to the inadequate implementation of credential-management practices. 
+This includes the use of hardcoded credentials within the application, storing them in unprotected locations, transmitting them without encryption or through insecure channels, and using weak authentication methods. 
+Attackers exploit these vulnerabilities to gain unauthorized access to user accounts or sensitive data and functionality in mobile apps and backend systems, potentially leading to data breaches and unauthorized transactions
+
+ M2 - Inadequate Supply Chain 
+Security This category encompasses the risks associated with the use of outdated or flawed third-party components and libraries in mobile applications.
+Supply chain vulnerabilities allow clients to use flawed components. 
+These vulnerabilities often arise because of insecure coding practices, inadequate code reviews, and insufficient testing, leading to the inclusion of vulnerabilities in the app. 
+Weaknesses in the app signing and distribution processes, as well as inadequate security controls for data encryption and storage, can also contribute to this risk.
+An insecure supply chain can expose mobile apps to various exploits, including code compromises that enable attackers to exploit known vulnerabilities, insert malicious code, potentially introduce backdoors, or compromise app signing keys or certificates.
+
+ M3 - Insecure Authentication/Authorization
+This category discusses the misuse of authentication and authorization mechanisms within mobile applications, often resulting from weak password policies, insecure token handling, or improper authorization checks.
+Attackers identify this vulnerability through binary attacks against the app or by executing privileged functionality using a low-privileged session token in POST/GET requests. 
+Once a vulnerability is discovered, attackers can impersonate legitimate users or directly submit service requests to the app's backend server using mobile malware or botnets to bypass authentication and gain unauthorized access to sensitive data.
+
+M4 - Insufficient Input/Output Validation
+This category involves the inadequate validation or sanitization of inputs from users or external sources within a mobile application, leading to SQL injection, command injection, and cross-site scripting (XSS) attacks. 
+Vulnerability can also arise owing to errors in application logic, lack of security awareness, or insufficient testing and code review practices. 
+Exploiting these vulnerabilities can lead to unauthorized data access and manipulation, malicious code execution, and application crashes, potentially compromising an entire mobile device
+
+ M5 - Insecure Communication
+Insecure communication occurs when mobile apps use insecure or deprecated communication protocols, improper configuration settings, or invalid SSL certificates, which can allow attackers to intercept or alter the transmitted data. 
+Outdated encryption and inconsistencies in application implementation can also contribute to this vulnerability. 
+Attackers can identify this vulnerability by observing the network traffic of a device and examining its design and configuration. 
+Exploiting insecure communication can lead to the interception of sensitive information, user impersonation, account takeover, PII leaks, espionage, and fraudulent activities, such as identity theft
+
+M6 - Inadequate Privacy Controls
+This category pertains to the inadequate protection of personally identifiable information (PII) such as names, addresses, and financial data by application developers. 
+This can result from poor data access control and noncompliance with privacy laws. 
+Attackers exploit this vulnerability to commit identity theft, fraud, impersonation, data misuse, and other malicious activities leading to user distrust and potential regulatory fines.
+
+ M7 - Insufficient Binary Protections
+This category encompasses threats of code tampering and reverse engineering, which occur when mobile applications lack protection against these activities, leading to binary attacks. 
+Attackers exploit vulnerabilities in binary protection to bypass security mechanisms, modify or analyze app code, insert malicious code to create counterfeit apps, distribute them via third-party app stores, or access the paid features of the mobile application for free.
+
+M8 - Security Misconfiguration
+This category addresses threats arising from incorrect or incomplete security configurations in mobile applications, including weak encryption/hashing, unprotected storage and file permissions, misconfigured access controls, and session management. 
+Misconfigurations such as enabled debugging features, unnecessary permissions, unchanged default credentials, or insecure communication protocols can lead to such vulnerabilities.
+Attackers exploit these flaws by physically accessing a device or using a malicious app to execute unauthorized actions on vulnerable applications. 
+Security misconfigurations expose apps to risks such as account hijacking, data breaches, unauthorized access to sensitive information, and compromise of backend systems
+
+M9 - Insecure Data Storage
+This category involves the risk of insecurely storing sensitive data in mobile applications, including plain text storage, unsecured databases/locations, insufficient data protection, improper user credential management, and weak encryption methods.
+Attackers exploit these vulnerabilities through physical or remote access to a device file system, intercepting data transmission, deploying malware, or using social engineering techniques.
+Insecure data storage can lead to data breaches, unauthorized access to application resources, data tampering, compromised accounts, financial losses, identity theft, and compliance issues.
+
+ M10 - Insufficient Cryptography
+This category focuses on risks arising from the use of weak or outdated encryption methods, poor key management, or implementation flaws that allow attackers to decrypt encrypted data, manipulate cryptographic processes, or access sensitive information. 
+These vulnerabilities include the use of weak encryption algorithms or inadequate key lengths, poor key management practices, insecure hash functions, improper handling of encryption keys, insecure random number generation, flawed implementation of cryptographic protocols, and vulnerabilities in cryptographic libraries or frameworks.
+Attackers exploit these vulnerabilities to bypass encryption, reverse-engineer hashed data, gain unauthorized access to user accounts, and compromise user data and application security.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
