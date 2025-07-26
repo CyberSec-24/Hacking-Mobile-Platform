@@ -1,0 +1,30 @@
+Smartphones are increasingly attracting the attention of cyber criminals. 
+
+Mobile app developers must understand the threat to the security and privacy of mobile devices by running a non-sandboxed app, and they should develop sandboxed apps accordingly.
+
+App sandboxing is a security mechanism that helps protect systems and users by limiting the resources that an app can access to its intended functionality on the mobile platform.
+
+Often, sandboxing is useful in executing untested code or untrusted programs from unverified or untrusted third parties, suppliers, users, and websites. 
+
+This enhances security by isolating the app to prevent intruders, system resources, malware such as Trojans and viruses, and other apps from interacting with it. 
+
+As sandboxing isolates applications from one another, it protects them from tampering with each other; however, malicious applications may exploit vulnerabilities and bypass the sandbox. 
+
+A secure sandbox environment provides an application with limited privileges intended for its functionality to restrict it from accessing other users’ data and system resources, whereas a vulnerable sandbox environment allows a malicious application to exploit vulnerabilities in the sandbox and breach its perimeter, resulting in the exploitation of other data and system resources.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
