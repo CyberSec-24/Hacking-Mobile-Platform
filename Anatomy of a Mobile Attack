@@ -1,0 +1,160 @@
+▪ The Device
+
+Vulnerabilities in mobile devices pose significant risks to sensitive personal and corporate data.
+Attackers targeting the device itself can use various entry points. Device-based attacks are of the following types: 
+
+o Browser-based Attacks Browser-based methods of attack are as follows:
+
+• Phishing: Phishing emails or pop-ups redirect users to fake web pages that mimic trustworthy sites, asking them to submit their personal information such as username, password, credit card details, address, and mobile number.
+Mobile users are more likely to be victims of phishing sites because the devices are small in size and they display only short URLs, limited warning messages, scaled-down lock icons, and so on.
+
+• Framing: Framing involves a web page integrated into another web page using the iFrame elements of HTML.
+An attacker exploits iFrame functionality used in the target website, embeds his/her malicious web page, and uses clickjacking to steal users’ sensitive information.
+
+• Clickjacking: Clickjacking, also known as a user interface redress attack, is a malicious technique used to trick web users into clicking something different from what they think they are clicking.
+Consequently, attackers obtain sensitive information or take control of the device.
+
+• Man-in-the-Mobile: An attacker implants malicious code into the victim’s mobile device to bypass password verification systems that send one-time passwords (OTPs) via SMS or voice calls. 
+Thereafter, the malware relays the gathered information to the attacker.
+
+• Buffer Overflow: Buffer overflow is an abnormality whereby a program, while writing data to a buffer, surfeits the intended limit and overwrites the adjacent memory. 
+This results in erratic program behavior, including memory access errors, incorrect results, and mobile device crashes.
+
+• Data Caching: Data caches in mobile devices store information that is often required by these devices to interact with web applications, thereby preserving scarce resources and resulting in better responses time for client applications. 
+Attackers attempt to exploit these data caches to access the sensitive information stored in them.
+
+
+o Phone/SMS-based Attacks Phone/SMS-based methods of attack are as follows:
+
+• Baseband Attacks: Attackers exploit vulnerabilities in a phone’s GSM/3GPP baseband processor, which sends and receives radio signals to cell towers.
+
+• SMiShing: SMS phishing (also known as SMiShing) is a type of phishing fraud in which an attacker uses SMS to send text messages containing deceptive links of malicious websites or telephone numbers to a victim. 
+The attacker tricks the victim into clicking the link or calling the phone number and revealing his or her personal information such as social security number (SSN), credit card number, and online banking username and password.
+
+
+o Application-based Attacks Application-based methods of attack are as follows:
+
+• Sensitive Data Storage: Some apps installed and used by mobile users employ weak security in their database architecture, which makes them targets for attackers who seek to hack and steal the sensitive user information stored in them.
+
+• No Encryption/Weak Encryption: Apps that transmit unencrypted or weakly encrypted data are susceptible to attacks such as session hijacking.
+
+• Improper SSL Validation: Security loopholes in an application’s SSL validation process may allow attackers to circumvent the data security.
+
+• Configuration Manipulation: Apps may use external configuration files and libraries that can be exploited in a configuration manipulation attack. 
+This includes gaining unauthorized access to administration interfaces and configuration stores as well as retrieval of clear text configuration data.
+
+• Dynamic Runtime Injection: Attackers manipulate and abuse the run time of an application to circumvent security locks and logic checks, access privileged parts of an app, and even steal data stored in memory.
+
+• Unintended Permissions: Misconfigured apps can sometimes open doors to attackers by providing unintended permissions.
+
+• Escalated Privileges: Attackers engage in privilege escalation attacks, which take advantage of design flaws, programming errors, bugs, or configuration oversights to gain access to resources that are usually protected from an application or user
+
+
+o The System OS-based methods of attack are as follows:
+
+• No Passcode/Weak Passcode: Many users choose not to set a passcode or use a weak PIN, passcode, or pattern lock, which an attacker can easily guess or crack to compromise sensitive data stored in the mobile device.
+
+• iOS Jailbreaking: Jailbreaking iOS is the process of removing the security mechanisms set by Apple to prevent malicious code from running on the device. 
+It provides root access to the OS and removes sandbox restrictions. Thus, jailbreaking involves many security risks as well as other risks to iOS devices, including poor performance, malware infection, and so on.
+
+• Android Rooting: Rooting allows Android users to attain privileged control (known as “root access”) within Android’s subsystem. 
+Like jailbreaking, rooting can result in the exposure of sensitive data stored in the mobile device
+
+• OS Data Caching: An OS cache stores used data/information in memory on a temporary basis in the hard disk.
+An attacker can dump this memory by rebooting the victim’s device with a malicious OS and extract sensitive data from the dumped memory.
+
+• Passwords and Data Accessible: iOS devices store encrypted passwords and data using cryptographic algorithms that have certain known vulnerabilities. 
+Attackers exploit these vulnerabilities to decrypt the device’s Keychain, exposing user passwords, encryption keys, and other private data.
+
+• Carrier-loaded Software: Pre-installed software or apps on devices may contain vulnerabilities that an attacker can exploit to perform malicious activities such as deleting, modifying, or stealing data on the device, eavesdropping on calls, and so on.
+
+• User-initiated Code: User-initiated code is an activity that tricks the victim into installing malicious applications or clicking links that allow an attacker to install malicious code to exploit the user’s browser, cookies, and security permissions
+
+
+▪ The Network 
+Network-based methods of attack are as follows:
+
+o Wi-Fi (weak encryption/no encryption): 
+Some applications fail to encrypt data or use weak algorithms to encrypt data for transmission across wireless networks. 
+An attacker may intercept the data by eavesdropping on the wireless connection. 
+Although many applications use SSL/TLS, which offers protection for data in transit, attacks against these algorithms can expose users’ sensitive information.
+
+o Rogue Access Points: 
+Attackers install an illicit wireless access point by physical means, which allows them to access a protected network by hijacking the connections of legitimate network users.
+
+o Packet Sniffing:
+An attacker uses sniffing tools such as Wireshark and Capsa Free Network Analyzer to capture and analyze all the data packets in network traffic, which generally include sensitive data such as login credentials sent in clear text.
+
+o Man-in-the-Middle (MITM): 
+Attackers eavesdrop on existing network connections between two systems, intrude into these connections, and then read or modify the data or insert fraudulent data into the intercepted communication
+
+o Session Hijacking: 
+Attackers steal valid session IDs and use them to gain unauthorized access to user and network information.
+
+o DNS Poisoning: Attackers exploit network DNS servers, resulting in the substitution of false IP addresses at the DNS level. 
+Thus, website users are directed to another website of the attacker’s choice.
+
+o SSLStrip: SSLStrip is a type of MITM attack in which attackers exploit vulnerabilities in the SSL/TLS implementation on websites. 
+It relies on the user validating the presence of the HTTPS connection. 
+The attack invisibly downgrades connections to HTTP without encryption, which is difficult for users to detect in mobile browsers.
+
+o Fake SSL Certificates:
+Fake SSL certificates represent another type of MITM attack in which an attacker issues a fake SSL certificate to intercept traffic on a supposedly secure HTTPS connection
+
+▪ The Data Center/CLOUD Data centers have two primary points of entry: 
+a web server and a database. o Web-server-based attacks Web-server-based vulnerabilities and attacks are of the following types:
+
+• Platform Vulnerabilities: Attackers exploit vulnerabilities in the OS, server software such as IIS, or application modules running on the web server
+
+• Server Misconfiguration: 
+A misconfigured web server may allow an attacker to gain unauthorized access to its resources.
+
+• Cross-site Scripting (XSS): 
+XSS attacks exploit vulnerabilities in dynamically generated web pages, which enable malicious attackers to inject client-side script into web pages viewed by other users. 
+Such attacks occur when invalidated input data are included in dynamic content sent to the user’s web browser for rendering. 
+Attackers inject malicious JavaScript, VBScript, ActiveX, HTML, or Flash for execution on a victim’s system by hiding it within legitimate requests.
+
+• Cross-Site Request Forgery (CSRF): 
+CSRF attacks exploit web page vulnerabilities that allow an attacker to force an unsuspecting user’s browser to send unintended malicious requests.
+The victim holds an active session with a trusted site and simultaneously visits a malicious site that injects an HTTP request for the trusted site into his/her session, compromising its integrity
+
+• Weak Input Validation:
+Web services excessively trust the input from mobile applications, depending on the application to perform input validation.
+
+However, attackers can forge their own communication to the web server or circumvent the app’s logic checks, allowing them to take advantage of missing validation logic on the server to perform unauthorized actions.
+
+Attackers exploit input validation flaws so that they can perform cross-site scripting, buffer overflow, injection attacks, and so on, which lead to data theft and system malfunction.
+
+• Brute-Force Attacks:
+Attackers adopt the trial-and-error approach to guess the valid input to a particular field.
+
+Applications that allow any number of input attempts are generally prone to brute-force attacks.
+
+Other web-server-based vulnerabilities and attacks include cross-origin resource sharing, side-channel attack, hypervisor attack, VPN, and so on
+
+
+o Database Attacks Database-based vulnerabilities and attacks are of the following types:
+
+• SQL injection: 
+SQL injection is a technique used to take advantage of nonvalidated input vulnerabilities to pass SQL commands through a web application for execution by a backend database. 
+
+It is a basic attack used to gain unauthorized access to a database or to retrieve information directly from the database
+
+• Privilege Escalation: This occurs when an attack leverages some exploit to gain high-level access, resulting in the theft of sensitive data stored in the database.
+
+• Data Dumping: An attacker causes the database to dump some or all of its data, thereby uncovering sensitive records.
+
+• OS Command Execution: An attacker injects OS-level commands into a query, causing certain database systems to execute these commands on the server. 
+Thus, the attacker can gain unrestricted/root-level system access
+
+
+
+
+
+
+
+
+
+
+
+
