@@ -1,0 +1,69 @@
+Camera/Microphone Capture
+
+Attacks With the proliferation of personal devices’ usage with the Internet connection, many significant security concerns are being emerged alongside their benefits. 
+
+Attackers are trying to launch sophisticated attacks on digital users to gain unauthorized access to their devices and steal sensitive data or compromise the device.
+
+The following are two different attacking methods attackers often employ to compromise camera and micro phones of the devices
+
+
+Camfecting Attack
+A camfecting attack is a webcam capturing attack. 
+
+In this attack, the attacker gains access to the camera of a target’s computer or mobile device. 
+
+The attacker infects the target device with a remote access Trojan (RAT) and compromises it to access the victim’s camera and microphone.
+
+An attacker can also disable the camera light to avoid detection. 
+
+Using this method, the attacker can obtain sensitive data such as personal photos, recorded videos, and the location of the user. 
+
+Further, the attacker can control the camera from remote areas.
+
+Steps Involved in Camfecting Attack 
+▪ The attacker either sends a phishing mail with a malicious link or lures the victim into visiting a malicious website.
+
+▪ When the victim clicks on the malicious link or visits the malicious website, malware is downloaded and installed on the device, providing remote access to the attacker.
+
+▪ Now, the attacker can capture personal data such as photos and videos.
+
+
+Android Camera Hijack Attack
+Attackers attempt to leverage Google’s camera application, which is widely used in Android devices as the default camera app.
+
+An attacker can exploit Android’s multiple security bypass vulnerabilities to circumvent the required permissions and gain access to the victim’s camera and microphone.
+
+Further, the attacker can exploit this vulnerability even if the mobile device is locked.
+
+Android camera applications generally require storage permissions to store photos and videos Such storage permissions provide unrestricted access to the entire internal storage and allow attackers to perform various activities 
+
+such as capturing photos; recording videos and voice calls; and accessing stored photos, videos, GPS locations, and other sensitive information
+
+
+Steps Involved in Android Camera Hijack Attack
+Attackers exploit various bypass vulnerabilities on the target Android device by tricking the victim into downloading a malicious app. 
+
+The malicious app installs a Trojan on the victim’s device without their knowledge. 
+
+When the victim starts using the infected application, a persistent connection is established between the victim and attacker.
+
+Even if the victim closes the application, the connection persists, allowing attackers to capture photos and record videos stealthily
+
+
+Camera/Microphone Hijacking Tools 
+▪ StormBreaker 
+Attackers use the StormBreaker tool for social engineering by capturing the camera/microphone.
+
+The tool can access the device’s location, webcam, and microphone without explicitly requesting any permissions
+
+
+
+
+
+
+
+
+
+
+
+
