@@ -1,0 +1,20 @@
+Agent Smith attacks are carried out by luring victims into downloading and installing malicious apps designed and published by attackers in the form of games, photo editors, or other attractive tools from third-party app stores such as 9Apps.
+
+Once the user has installed the app, the core malicious code inside the application infects or replaces the legitimate apps in the victim’s mobile device C&C commands. 
+
+The deceptive application replaces legitimate apps such as WhatsApp, SHAREit, and MX Player with similar infected versions.
+
+The application sometimes also appears to be an authentic Google product such as Google Updater or Themes. 
+
+The attacker then produces a massive volume of irrelevant and fraudulent advertisements on the victim’s device through the infected app for financial gain.
+
+Attackers exploit these apps to steal critical information such as personal information, credentials, and bank details, from the victim’s mobile device through C&C commands
+
+
+
+
+
+
+
+
+
