@@ -1,0 +1,66 @@
+Android is a Linux-based OS designed for portable devices such as smartphones and tablets. 
+
+It is a stack of software components categorized into six sections (System Apps, Java AP Framework, Native C/C++ Libraries, Android Runtime, Hardware Abstraction Layer (HAL), and Linux kernel) and five layers.
+
+▪ System Apps All Android system applications are at the top layer. 
+
+Any app developed should fit into this layer. 
+
+Some standard applications that come pre-installed with every Android device include dialer, email, calendar, camera, SMS messaging, web browsers, contact managers, and so on. Most Android apps are “written” in Java.
+
+▪ Java API Framework
+Android platform functions are made available to developers through APIs written in Java. 
+
+The application framework offers many high-level services to applications, which developers incorporate in their development.
+
+Some of the application framework blocks are as follows: 
+o Content Providers—Manages data sharing between applications. 
+
+o View System—For developing lists, grids, text boxes, buttons, and so on. 
+
+o Activity Manager—Controls the activity life cycle of applications. o Location Manager—Manages location using GPS or cell towers.
+
+o Package Manager—Keeps track of the applications installed on the device. 
+
+o Notification Manager—Helps applications display custom messages in a status bar.
+
+
+▪ Native C/C++ Libraries 
+
+The next layer comprises the native libraries. Libraries are “written” in C or C++ and are specific to particular hardware.
+
+This layer allows the device to control different types of data. The native libraries are as follows: 
+
+o WebKit and Blink—web browser engine to display HTML content 
+o Open Max AL—companion API to OpenGL ES but used for multimedia (video and audio) rather than audio only
+o Libc—Comprises System C libraries
+o Media Framework—provides media codecs that allow recording and playback of different media formats
+o Open GL | ES—2D and 3D graphics library o Surface Manager—meant for display management 
+o SQLite—database engine used for data storage purposes o FreeType—meant for rendering fonts
+
+
+▪ Android Runtime It includes core libraries and the ART virtual machine.
+
+o Android Runtime (ART): 
+For Android versions beyond 5.0, apps have their own runtime processes and instances. 
+Android runtime has features such as ahead-of-time (AOT) compilation, just-in-time (JIT) compilation, optimized garbage collection (GC), and Dalvik Executable format (DEX) files to compress machine code.
+
+o Core Libraries: The set of core libraries allows developers to write Android applications using Java.
+
+
+ Hardware Abstraction Layer
+The hardware abstraction layer is used to expose the device’s hardware capabilities to the Java API framework that resides at a higher level. 
+
+It acts as an abstraction layer between the hardware and the software stack. 
+
+HAL comprises various modules that are required for the hardware equipment in the device, such as audio, camera, Bluetooth, sensors, and so on.
+
+
+
+
+
+
+
+
+
+
