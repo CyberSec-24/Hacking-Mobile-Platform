@@ -1,0 +1,38 @@
+Setting a mobile device’s Bluetooth connection to “open” or the “discovery” mode and turning on the automatic Wi-Fi connection capability, particularly in public places, pose significant risks to mobile devices. 
+
+Attackers exploit such settings to infect a mobile device with malware such as viruses and Trojans or compromise unencrypted data transmitted across untrusted networks. 
+
+They may lure victims into accepting a Bluetooth connection request from a malicious device or they may perform a MITM attack to intercept and compromise all the data sent to and from the connected devices. 
+
+Using the information gathered, attackers may engage in identity fraud and other malicious activities, thereby putting users at great risk.
+
+Techniques such as “bluesnarfing” and “bluebugging” help an attacker to eavesdrop on or intercept data transmission between mobile devices paired on open connections
+
+▪ Bluesnarfing (Stealing information via Bluetooth) 
+Bluesnarfing is the theft of information from a wireless device through a Bluetooth connection, often between phones, desktops, laptops, PDAs, and other devices. 
+
+This technique allows an attacker to access the victim’s contact list, emails, text messages, photos, videos, and business data, stored on the device. 
+
+Any device with its Bluetooth connection enabled and set to “discoverable” (allowing other Bluetooth devices within range to view the device) may be susceptible to bluesnarfing if the vendor’s software contains a certain vulnerability. 
+
+Bluesnarfing exploits others’ Bluetooth connections without their knowledge
+
+
+ Bluebugging (Taking over a device via Bluetooth)
+Bluebugging involves gaining remote access to a target Bluetooth-enabled device and using its features without the victim’s knowledge or consent. 
+
+Attackers compromise the target device’s security to perform a backdoor attack prior to returning control to its owner. 
+
+Bluebugging allows attackers to sniff sensitive corporate or personal data, receive calls and text messages intended for the victim, intercept phone calls and messages, forward calls, and messages, connect to the Internet,and perform other malicious activities such as accessing contact lists, photos, and videos
+
+
+
+
+
+
+
+
+
+
+
+
