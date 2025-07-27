@@ -1,0 +1,55 @@
+One-time passwords (OTPs) are sent by a server via SMS, an authenticator app, or an email for the secure authentication of users. 
+
+Although this feature seems secure, attackers can hijack OTPs and redirect them to their personal devices using different techniques such as social engineering and SMS jacking. 
+
+This attack is difficult to detect as users might suspect a network issue upon failure to receive an OTP, when the OTP is actually redirected to an attacker - controlled device.
+
+Using the stolen OTP, attackers can login to the victim’s online accounts, reset passwords, and steal sensitive information. 
+
+The attacker succeeds in OTP hijacking by initially stealing the victim’s PII data by bribing or tricking mobile store sellers or exploiting the reuse of the number for different customers. 
+
+Attackers perform social engineering on telecom providers to obtain ownership of the target user’s SIM by claiming that their device was lost. 
+
+In this manner, attackers convince the telecom provider and request them to transfer control over the victim’s SIM.
+
+Attackers can also use SIM jacking attacks to infect the target device’s SIM using malware, through which they can intercept and read OTPs
+
+Attackers hijack OTPs and redirect them to their personal devices using different techniques such as social engineering and SMS jacking
+
+Attackers succeed in OTP hijacking by initially stealing the victim’s PII data by bribing or tricking the mobile store sellers or exploiting the reuse of the same number for different customers
+
+Attackers can also use SIM jacking attacks to infect the target device’s SIM using malware, through which they can intercept and read OTPs
+
+
+Attackers physically steal SMS-based OTPs from the target user’s mobile phone by monitoring the user’s actions closely.
+
+They can view the notifications on the target user’s lock screen when they request for an OTP. 
+
+Attackers can hijack lock screen notifications using different methods such as eavesdropping or tricking the user into lending their phone for making an emergency call.
+
+
+ AdvPhishing Source: https://github.com AdvPhishing is a social media phishing tool that assists attackers in bypassing two-factor or OTP authentication. 
+
+AdvPhishing can gain access to the targeted IP address and is compatible with Linux and Termux OS. 
+
+Attackers deploy AdvPhishing on public networks using NGrok tunnelling and localhost tunnelling.
+
+As shown in the screenshot, attackers bypass the two-factor authentication of the victim’s social media account (Instagram) by authenticating the application using AdvPhishing.
+
+
+mrphish 
+mrphish is a bash-based script used for phishing social media accounts with port forwarding and OTP bypassing control. 
+
+This tool works on both rooted and non-rooted Android devices
+
+
+
+
+
+
+
+
+
+
+
+
