@@ -1,0 +1,65 @@
+The goal of rooting Android is to overcome the restrictions imposed by hardware manufacturers and carriers, 
+
+thereby resulting in the ability to modify or replace system applications and settings, run apps that require admin privileges, remove and replace a device’s OS, remove applications pre-installed by its manufacturer or carrier, or perform other operations that are otherwise inaccessible to the typical Android user. 
+
+Rooting allows Android users to attain privileged control (known as “root access”) within Android’s subsystem. 
+
+The rooting process involves exploiting security vulnerabilities in the device’s firmware, copying the su binary to a location in the current process’s PATH (e.g., /system/xbin/su), and granting it executable permissions with the chmod command.
+
+▪ Modifying or deleting system files, modules, ROMs (stock firmware), and kernels 
+
+▪ Removing carrier-or manufacturer-installed applications (bloatware) 
+
+▪ Low-level access to hardware that is typically unavailable to devices in their default configuration
+▪ Improved performance 
+
+▪ Wi-Fi and Bluetooth tethering 
+
+▪ Installing applications on SD card 
+
+▪ Better user interface and keyboard
+
+Rooting Android Using KingoRoot 
+KingoRoot is a tool used to root Android devices. 
+
+It can be used with or without a PC. KingoRoot helps users root their Android devices to achieve the following: 
+
+▪ Preserve battery life 
+▪ Access root-only apps 
+▪ Remove carrier “bloatware”
+▪ Customize appearance 
+▪ Attain admin level permission
+
+
+Android Rooting Tools 
+▪ One Click Root 
+One Click Root is an Android rooting software that supports most devices. It comes with extra fail-safes (such as instant unrooting) and offers full technical support. 
+
+It allows the rooting of an Android smartphone or tablet and provides access to additional features such as gaining access to more apps, 
+
+installing apps on SD cards, preserving battery life, Wi-Fi and Bluetooth tethering, installing custom ROMs, and accessing blocked features
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
